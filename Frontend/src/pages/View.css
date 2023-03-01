@@ -1,0 +1,23 @@
+
+.card{
+   display: grid;
+   justify-content: space-evenly;
+   align-items: center;
+   
+}
+
+.card .container{
+    box-sizing: border-box;
+    border: 2px solid;
+    padding:0;
+    background-color: bisque;
+    
+}
+.card .container strong{
+    font-size: 20px;
+}
+.card .card-header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
